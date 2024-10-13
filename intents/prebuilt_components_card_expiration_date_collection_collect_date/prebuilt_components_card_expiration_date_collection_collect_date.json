@@ -1,0 +1,10 @@
+{
+  "name": "fa947f9b-1862-4118-89cd-9bc1ffd9b06f",
+  "displayName": "prebuilt_components_card_expiration_date_collection_collect_date",
+  "parameters": [ {
+    "id": "expiration_date",
+    "entityType": "@prebuilt_components_card_expiration_date"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 22
+}

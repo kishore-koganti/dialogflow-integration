@@ -1,0 +1,17 @@
+{
+  "name": "f34525ef-b6e5-47a0-8217-3a43d71e78be",
+  "displayName": "prebuilt_components_authentication:2fa_validation",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"security_key\": \"$flow.security_key\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"verifyKey\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "$flow.security_key_verified",
+      "value": "security_key_verified"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

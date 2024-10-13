@@ -1,0 +1,10 @@
+{
+  "name": "c44820a4-d4df-4bf6-93ca-0409aa954ee0",
+  "displayName": "prebuilt_components_dob_collection_year_short_format",
+  "parameters": [ {
+    "id": "year",
+    "entityType": "@prebuilt_components_dob_collection_year_short"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 21
+}

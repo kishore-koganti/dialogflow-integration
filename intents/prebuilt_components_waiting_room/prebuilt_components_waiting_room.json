@@ -1,0 +1,11 @@
+{
+  "name": "1f415c23-9867-4d09-85a2-f5c9318390b6",
+  "displayName": "prebuilt_components_waiting_room",
+  "parameters": [ {
+    "id": "duration",
+    "entityType": "@sys.duration"
+  } ],
+  "priority": 500000,
+  "description": "I just cannot find it",
+  "numTrainingPhrases": 44
+}

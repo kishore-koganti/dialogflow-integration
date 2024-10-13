@@ -1,0 +1,23 @@
+{
+  "name": "38c8dbe4-26d1-41a0-b869-2adf6f71a27a",
+  "displayName": "prebuilt_components_authentication:telephony_verification",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"checkAuthentication\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "account_count",
+      "value": "account_count"
+    }, {
+      "key": "email",
+      "value": "email"
+    }, {
+      "key": "last_four_digit_of_account_number",
+      "value": "last_four_digit_of_account_number"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "359d970b-486e-48c9-b26d-a640b7f5654c",
+  "displayName": "prebuilt_components_account_number_collection_four_digit_account_number",
+  "parameters": [ {
+    "id": "last_four_digit_of_account_number",
+    "entityType": "@sys.number-sequence",
+    "isList": true
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 43
+}
